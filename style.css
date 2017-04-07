@@ -1,28 +1,37 @@
+html, body{
+	height:100%;
+	background-image: url("http://www.intrawallpaper.com/static/images/518079-background-hd_Tv150Mi.jpg");
+background-size: cover;
+}
+
 .header{
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 }
 .footer{
-	background-color: lightsalmon;
+/*	background-color: lightsalmon;*/
 	clear:both;
 }
 .content-wrapper{
-height:100px;
+height:100%;
 
 }
 .content-wrapper .sidebar-left{
-	background-color: lightgreen;
+/*	background-color: lightgreen;*/
 	float: left;
 	height:100%;
 	width:15%;
 }
+.content-wrapper .sidebar-left a {
+	display:block;
+}
 .content-wrapper .sidebar-right{
-	background-color: lightseagreen;
+/*	background-color: lightseagreen;*/
 	float: right;
 	height:100%;
 	width: 15%;
 }
 .content-wrapper .content-main{
-	background-color: magenta;
+/*	background-color: magenta;*/
 	float:left;
 	height:100%;
 	width:70%;

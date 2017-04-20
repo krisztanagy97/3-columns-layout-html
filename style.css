@@ -1,38 +1,86 @@
-html, body{
-	height:100%;
-	background-image: url("http://www.intrawallpaper.com/static/images/518079-background-hd_Tv150Mi.jpg");
-background-size: cover;
-}
-
 .header{
-	/*background-color: lightblue;*/
+	background-color: lightblue;
+	text-align:center;
 }
 .footer{
-/*	background-color: lightsalmon;*/
+	background-color: lightsalmon;
 	clear:both;
+    }
+.footer .One{
+	background-color: lightpink;
+	float: left;
+	width: 25%;
+	
+
+
 }
+.footer .Two{
+	background-color: lightpink;
+	width:25%;
+	float:left;
+
+
+	}
+.footer .Three{
+	background-color:lightpink;
+	float:left;
+	width: 25%;
+
+
+}
+.footer .Four{
+	background-color:lightpink;
+	float: right;	
+	width:25%;
+
+
+	}
+
+.bead {
+	background-color: violet;
+	float:right;
+	width:80%;
+}
+.content{
+	clear:right;
+	height:60px;
+}
+.content .kozepcontent{
+	background-color: grey;
+	float:left;
+	width:60%;
+	height:100%;
+}
+.content .egyebb{
+	background-color: lightgrey;
+	float:right;
+	width:20%;
+	height:100%;
+}
+
 .content-wrapper{
 height:100%;
+text-align:center;
 
 }
 .content-wrapper .sidebar-left{
-/*	background-color: lightgreen;*/
+	background-color: lightgreen;
 	float: left;
 	height:100%;
-	width:15%;
+	width:50%;
 }
-.content-wrapper .sidebar-left a {
-	display:block;
-}
-.content-wrapper .sidebar-right{
-/*	background-color: lightseagreen;*/
-	float: right;
-	height:100%;
-	width: 15%;
-}
+
 .content-wrapper .content-main{
-/*	background-color: magenta;*/
-	float:left;
+	background-color: magenta;
+	float:right;
 	height:100%;
-	width:70%;
+	width:50%;
+}
+.kozep .contact{
+	background-color: lightblue;
+	float:left;
+	height: 100%;
+	width: 20%;
+	
+}
 
